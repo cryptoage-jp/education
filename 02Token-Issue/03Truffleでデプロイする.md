@@ -38,4 +38,6 @@ truffleの設計ファイルtruffle.jsと.envファイルを作成する
 
 lottery-contract直下で
 `lottery-contract$ truffle compile`
+
 `lottery-contract$ truffle migrate`
+
