@@ -21,5 +21,20 @@ contract(`Lottery`, function (accounts){
     //contractというコントラクト専用のテストメソッドを使用する
     //その中に関数を定義しaccountsを渡す
     //truffleのtestではaccounts[]が0〜9まで何も定義せずに利用可能
+
+    //コントラクトを呼ぶためのAPIをインスタンス化
+    beforeEach(async() => {
+        this.lottery = await Lottery.new({ from: creater });
+    });
+
+    describe('Lottery Contract', () => {
+        //it('テスト説明',関数)という形で書く
+        //ここではlottery.addressと書いてlotteryのコントラクトアドレスが帰ってくればtestをokにするとなっている。
+        it('deploys a contract', () => {
+            assert.ok(lottery.address);
+        });
+    });
 });
 ```
+テストをかけたら
+`$ truffle test`
