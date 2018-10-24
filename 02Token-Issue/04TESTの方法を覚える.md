@@ -38,3 +38,7 @@ contract(`Lottery`, function (accounts){
 ```
 テストをかけたら
 `$ truffle test`
+
+ここで使われている関数
+![Mocha関数](https://github.com/cryptoage-jp/education/blob/master/images/mocha.png)
+![Mocha関数Process](https://github.com/cryptoage-jp/education/blob/master/images/process.png)
