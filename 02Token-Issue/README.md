@@ -6,4 +6,5 @@
 - コントラクトを写す
 - コントラクト、返り値のチェック
 
-Credit Yosuke Ochiai, Cryptoeconomics Lab
+# Credit 
+Yosuke Ochiai, Cryptoeconomics Lab
